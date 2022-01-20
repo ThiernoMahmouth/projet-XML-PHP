@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE examen SYSTEM "examen.dtd">
+<examen>
+<description classe="DESCAF2" matiere="Compta" semestre="1" date="2021-11-11"/>
+<professeur><prenom>DIALLO</prenom><nom>Gallo</nom></professeur>
+<exercice numero="1" nbPoint="0">
+    <question numero="1" nbPoint="12" type="repUnique">
+        <libelle>Qui es tu?</libelle>
+        <option>Humain</option>
+        <option>Animal</option>
+        <option>Djiin</option>
+        <option>Ange</option>
+    </question>
+    <question numero="2" nbPoint="8" type="repLongue">
+        <libelle>Couleurs du drapeau</libelle>
+    </question>
+    </exercice>
+</examen>

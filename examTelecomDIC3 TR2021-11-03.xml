@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE examen SYSTEM "examen.dtd">
+<examen>
+<description classe="DIC3 TR" matiere="Telecom" semestre="1" date="2021-11-03"/><professeur><prenom>DIALLO</prenom><nom>Gallo</nom></professeur><exercice numero="1" nbPoint="0"><question numero="1" nbPoint="2" type="repCourte"><libelle>Qui es tu?</libelle></question><question numero="2" nbPoint="3" type="repUnique"><libelle>Ta couleurs préférées ?</libelle><option>rouge</option><option>vert</option><option>noir</option></question></exercice><exercice numero="2" nbPoint="0"><question numero="1" nbPoint="5" type="repLongue"><libelle>Qui est en train de parler?</libelle></question></exercice></examen>

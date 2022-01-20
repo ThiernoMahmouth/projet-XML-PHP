@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE examen SYSTEM "examen.dtd">
+<examen>
+<description classe="DESCAF2" matiere="Gestion" semestre="2" date="2021-11-03"/><professeur><prenom>DIALLO</prenom><nom>Gallo</nom></professeur><exercice numero="1" nbPoint="0"><question numero="1" nbPoint="5" type="repUnique"><libelle>Est-ce vrai</libelle><option>vrai</option><option>faux</option></question><question numero="2" nbPoint="3" type="repMultiple"><libelle>plats preferes</libelle><option>mafe</option><option>riz</option><option>poulet</option></question></exercice><exercice numero="2" nbPoint="0"><question numero="1" nbPoint="2" type="repCourte"><libelle>Qui est de parler?</libelle></question></exercice></examen>

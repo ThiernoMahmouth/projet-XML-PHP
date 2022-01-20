@@ -1,0 +1,22 @@
+<!ELEMENT examen(description, date, professeur, exercice+)>
+    <!ELEMENT description EMPTY>
+        <!ATTLIST description classe CDATA #REQUIRED
+                            matiere CDATA #REQUIRED
+                            semestre CDATA #REQUIRED
+                            date CDATA #REQUIRED>
+    <!ELEMENT professeur(prenom?, nom)>
+        <!ELEMENT prenom(#PCDATA)>
+        <!ELEMENT nom(#PCDATA)>    
+    <!ELEMENT exercice (question+)>
+        <!ATTLIST exercice numero CDATA #REQUIRED
+                           nbPoint CDATA>
+        <!ELEMENT nbPoint(#PCDATA)>
+        <!ELEMENT question(libelle, option*)>
+            <!ENTITY %typeRep ("repCourte" | "repLongue" | "repUnique" | "repMultiple") >
+            <!ATTLIST question  numero CDATA #REQUIRED
+                                nbPoint CDATA
+                                type %typeRep; #REQUIRED>
+            <!ELEMENT libelle (#PCDATA)>
+            <!ELEMENT option (#PCDATA)>
+            
+ 
